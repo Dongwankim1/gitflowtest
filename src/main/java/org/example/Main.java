@@ -12,6 +12,7 @@ public class Main {
             Integer A = Integer.parseInt(k[0]);
             Integer B = Integer.parseInt(k[1]);
             System.out.println(A+B);
+            System.out.println(A+B);
         }
 
 
