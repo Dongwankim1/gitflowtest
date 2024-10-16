@@ -4,17 +4,16 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        String first = scanner.nextLine();
-        String second = scanner.nextLine();
-
-        int total = first.length()+second.length();
-        int result = 0;
-        HashSet<Character> hashSet = new HashSet<>();
-        int j=0;
-        
+    public static void main(String[] args) throws Exception {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        String line = "";
+        while((line = bf.readLine())!=null){
+            String[] k = line.split(" ");
+            Integer A = Integer.parseInt(k[0]);
+            Integer B = Integer.parseInt(k[1]);
+            System.out.println(A+B);
+            System.out.println(A+B);
+        }
 
 
         System.out.println(total-result);
