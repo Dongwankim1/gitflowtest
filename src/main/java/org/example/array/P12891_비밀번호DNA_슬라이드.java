@@ -51,8 +51,11 @@ public class P12891_비밀번호DNA_슬라이드 {
             int j = i-P;
             Add(A[i]);
             Remove(A[j]);
+            if(checkSecret == 4) Result++;
         }
 
+
+        System.out.println(Result);
 
 
 
