@@ -44,7 +44,7 @@ public class P11724_연결요소의개수_dfs {
         }
         int count = 0 ;
         //전체 노드를 실행한다 그러면서 DFS를 실행
-        for(int i=0;i<nodeCnt;i++){
+        for(int i=1;i<nodeCnt+1;i++){
             if(!visited[i]){
                 count++;
                 dfs(i);
