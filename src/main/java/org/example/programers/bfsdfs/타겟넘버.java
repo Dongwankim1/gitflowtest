@@ -28,7 +28,7 @@ public class 타겟넘버 {
     public static void dfs(int depth, int sum, int target){
         System.out.println("depth = "+ depth);
         System.out.println("sum = "+sum);
-        if(depth==givenNumbers.length-1){
+        if(depth==givenNumbers.length){
             System.out.println(depth);
             if(sum==target){
                 answer++;
